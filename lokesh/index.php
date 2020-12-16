@@ -3,23 +3,23 @@
            <!-- Main Container  -->
            <div class="main-container my-2">
                <div id="content">
-                   <div class="container">
+                   <div class="container-fluid">
                        <div class="box-content1">
                            
                            <div class="module sohomepage-slider ">
-                               <div class="yt-content-slider"  data-rtl="yes" data-autoplay="no" data-autoheight="no" data-delay="4" data-speed="0.6" data-margin="0" data-items_column0="1" data-items_column1="1" data-items_column2="1"  data-items_column3="1" data-items_column4="1" data-arrows="yes" data-pagination="yes" data-lazyload="yes" data-loop="no" data-hoverpause="yes">
+                               <div class="yt-content-slider"  data-rtl="yes" data-autoplay="no" data-autoheight="no" data-delay="4" data-speed="0.6" data-margin="0" data-items_column0="1" data-items_column1="1" data-items_column2="1"  data-items_column3="1" data-items_column4="1" data-arrows="yes" data-pagination="yes" data-lazyload="yes" data-loop="yes" data-hoverpause="yes">
                                     
                                <div class="yt-content-slide">
-                                       <a href="#"><img src="https://www.titan.co.in/wps/wcm/connect/titan/ac0e85c5-0fae-4a5b-b6a9-7e6c36cbd3ea/desktop/TICONX_HP2500x1000-min+%281%29.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OO8010QKMQAAEP2004-ac0e85c5-0fae-4a5b-b6a9-7e6c36cbd3ea-desktop-nkC5FpB" alt="slider1" class="img-responsive"></a>
+                                       <a href="#"><img src="./image/catalog/banners/Resize/1.jpg" alt="slider1" class="img-responsive"></a>
                                    </div>
                                    <div class="yt-content-slide">
-                                       <a href="#"><img src="https://www.titan.co.in/wps/wcm/connect/titan/b52fb79d-ee5b-447c-8b3b-ed6c40457a0e/desktop/GrandMaster_2500x1000.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OO8010QKMQAAEP2004-b52fb79d-ee5b-447c-8b3b-ed6c40457a0e-desktop-npevSJG" class="img-responsive"></a>
+                                       <a href="#"><img src="./image/catalog/banners/Resize/2.jpg " class="img-responsive"></a>
                                    </div>
                                    <div class="yt-content-slide">
-                                       <a href="#"><img src="https://www.titan.co.in/wps/wcm/connect/titan/d2688ff3-97d7-41c4-bd06-79241766ea5f/desktop/Titan_Traq_Digital_HP_2500-x-1000.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OO8010QKMQAAEP2004-d2688ff3-97d7-41c4-bd06-79241766ea5f-desktop-nnApMQq" alt="slider1" class="img-responsive"></a>
+                                       <a href="#"><img src="./image/catalog/banners/Resize/3.jpg" alt="slider1" class="img-responsive"></a>
                                    </div>
                                    <div class="yt-content-slide"  >
-                                       <a href="#"><img src="https://www.titan.co.in/wps/wcm/connect/titan/1d78c984-1707-4122-9e1b-8606ff0a138c/desktop/LeeCooper_2500x1000.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_90IA1H80OO8010QKMQAAEP2004-1d78c984-1707-4122-9e1b-8606ff0a138c-desktop-npe2E0T"></a>
+                                       <a href="#"><img src="./image/catalog/banners/Resize/4.jpg"></a>
                                    </div >
                                </div>
                                <div class="loadeding" ></div>
@@ -62,7 +62,7 @@
                            <h3 class="modtitle"><span>New Arrivals </span></h3>
                            <div class="modcontent clearfix">
                                <div class="so-product-external">
-                                   <div class="yt-content-slider owl-product" data-autoplay="no" data-autoheight="no" data-delay="4" data-speed="0.6" data-margin="0" data-items_column0="6" data-items_column1="3" data-items_column2="3" data-items_column3="2" data-items_column4="1" data-arrows="yes" data-pagination="no" data-lazyload="yes" data-loop="no" data-hoverpause="yes" data-buttonpage="top">
+                                   <div class="yt-content-slider owl-product" data-autoplay="no" data-autoheight="no" data-delay="4" data-speed="0.6" data-margin="0" data-items_column0="6" data-items_column1="3" data-items_column2="3" data-items_column3="2" data-items_column4="1" data-arrows="yes" data-pagination="no" data-lazyload="yes" data-loop="yes" data-hoverpause="yes" data-buttonpage="top">
                                        <div class="item">
                                            <div class="item-inner product-layout transition">
                                                <div class="product-item-container">
@@ -370,7 +370,7 @@
                        <div class="deals module clearfix" >
                            <h3 class="modtitle"><span>Hot Deals</span></h3>
                            <div class="so-extraslider">
-                               <div class="yt-content-slider extraslider-inner products-list" data-rtl="yes" data-pagination="yes" data-autoplay="no" data-delay="4" data-speed="0.6" data-margin="30" data-items_column0="2" data-items_column1="1" data-items_column2="1" data-items_column3="1" data-items_column4="1" data-arrows="no" data-lazyload="yes" data-loop="no" data-buttonpage="top">
+                               <div class="yt-content-slider extraslider-inner products-list" data-rtl="yes" data-pagination="yes" data-autoplay="no" data-delay="4" data-speed="0.6" data-margin="30" data-items_column0="2" data-items_column1="1" data-items_column2="1" data-items_column3="1" data-items_column4="1" data-arrows="no" data-lazyload="yes" data-loop="yes" data-buttonpage="top">
                                    <div class="item">
                                        <div class="product-thumb transition">
                                            <div class="row">
@@ -684,7 +684,7 @@
                            <h3 class="modtitle"><span>Best Selling Products</span></h3>
                            <div class="modcontent clearfix">
                                <div class="so-product-external">
-                                   <div class="yt-content-slider owl-product" data-autoplay="no" data-autoheight="no" data-delay="4" data-speed="0.6" data-margin="0" data-items_column0="6" data-items_column1="3" data-items_column2="3" data-items_column3="2" data-items_column4="1" data-arrows="yes" data-pagination="no" data-lazyload="yes" data-loop="no" data-hoverpause="yes" data-buttonpage="top">
+                                   <div class="yt-content-slider owl-product" data-autoplay="no" data-autoheight="no" data-delay="4" data-speed="0.6" data-margin="0" data-items_column0="6" data-items_column1="3" data-items_column2="3" data-items_column3="2" data-items_column4="1" data-arrows="yes" data-pagination="no" data-lazyload="yes" data-loop="yes" data-hoverpause="yes" data-buttonpage="top">
                                        <div class="item">
                                            <div class="item-inner product-layout transition">
                                                <div class="product-item-container">

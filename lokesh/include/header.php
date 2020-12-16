@@ -62,12 +62,12 @@
 
 <body class="common-home res layout-4">
 
-    <div id="wrapper" class="wrapper-fluid banners-effect-11">
+    <div id="wrapper" class="wrapper-fluid banners-effect-11 ">
         <!-- Header Container  -->
-        <header id="header" class=" typeheader-4">
+        <header id="header" class="  typeheader-4">
 
             <!-- Header Top -->
-            <div class="header-top hidden-compact">
+            <div class="header-top   hidden-compact" style="background: #ecbc74c2;">
                 <div class="container m-2">
                     <div class="row">
                         <div class="header-top-left col-lg-3 col-md-2 col-sm-6 col-xs-7">
@@ -78,7 +78,7 @@
                                         <div class="navbar-logo col-lg-12 col-md-3 col-sm-12 col-xs-12">
                                             <div class="logo">
                                                 <a href="index.php"><img src="./image/catalog/logo.png "
-                                                        title="Your Store" alt="Your Store" style="height:55px;" /></a>
+                                                        title="Your Store" alt="Your Store" style="height:55px;" id="logo" /></a>
                                             </div>
                                         </div>
                                     </div>
@@ -144,9 +144,12 @@
                                         <li class=" text-left"><a href="login.php"><i class="fa fa-sign-in"
                                                     aria-hidden="true"></i> Register/Login</a>
                                         </li>
+                                        <li><a href="cart.php"><a href="orders.php"><i class="fa fa-shopping-basket" aria-hidden="true"></i>  My Order History</a>
+                                        </li>
                                         <li><a href="cart.php"><a href=" cart.php"><i class="fa fa-shopping-cart"
                                                         aria-hidden="true"></i> My Cart</a>
                                         </li>
+
                                         <li><a href="checkout.php"><i class="fa fa-credit-card-alt"
                                                     aria-hidden="true"></i> Checkout</a>
                                         </li>
@@ -155,6 +158,9 @@
                                                 title="Wish List (0) ">
                                                 <i class="fa fa-heart"></i> Wish List (0)
                                             </a>
+                                        </li>
+                                        <li><a href="account.php"><i class="fa fa-cog" aria-hidden="true"></i>
+  Settings</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -169,7 +175,7 @@
             <!-- //Header Top -->
 
             <!-- Header Bottom -->
-            <div class="header-bottom hidden-compact  ">
+            <div class="header-bottom hidden-compact ">
                 <div class="container">
                     <div class="row my-2">
                         <div class="bottom1 menu-vertical col-lg-3 col-md-3">
@@ -917,7 +923,7 @@
                                                                 <div class="content">
                                                                     <div class="row">
                                                                         <div class="col-sm-12">
-                                                                            <div class="row">
+                                                                            <div class="row categories">
                                                                                 <div class="col-md-3 img img1">
                                                                                     <a href="#"><img
                                                                                             src="./image/catalog/menu/megabanner/analog.jpg"

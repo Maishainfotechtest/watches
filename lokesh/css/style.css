@@ -1,7 +1,7 @@
 body{
     font-family:  'Roboto', sans-serif;
     font-weight: 800 !important;
-    transition: all ;
+   
 }
 .adminlist{
    padding: 9px 0px;
@@ -92,6 +92,7 @@ padding: 2rem 0;
 .customcss{
 position: absolute;
 margin: 2px -3px;
+transition: all;
 left: 3px;
 top: -108px;
 font-size: 12px;
@@ -100,11 +101,13 @@ border: none;
 }
 .customcss:hover{
  opacity: 1;
+ transition: 0.5s;
 }
 .wishlistcustom{
     position: relative;
     margin: 1px -3px;
     left: -8px;
+    transition: all;
     top: -77px;
     font-size: 12px;
     border: none;
@@ -113,11 +116,15 @@ border: none;
 }
 .wishlistcustom:hover{
      opacity: 1;
+     transition: 0.5s;
 }
 .wishlistcustom i {
     color : rgb(248, 131, 131);
 }
-
+.font-weight-bold{
+    font-weight: bold;
+    color: black;
+}
 /** media querries **/
 
 
@@ -132,9 +139,38 @@ border: none;
         position: fixed !important;
         left: 86% !important;
     }
+
+    .header-bottom{
+    position: relative;
+    top: -34px;
+    }
+    .owl2-item img{
+      height: 27vh;
+    }
+    .owl2-stage-outer{
+        position: relative;
+        top: -21px;
+    }
+    .single-baner2 img {
+        height: 16vh;
+    }
+    footer.typefooter-4 .footer-top .contnet-footer-top {
+        text-align: center;
+        height: 10vh;
+    }
+    .socials{
+    position: relative;
+    top: -28px;
+    }
+    #logo{
+        height: 55px;
+        position: relative;
+        left: -27px;
+        margin: 4px 0;
+        padding: 3px 5px;
+    }
+    .categories img{
+     display: none;
+    }
 }
 
-.font-weight-bold{
-    font-weight: bold;
-    color: black;
-}

@@ -100,19 +100,19 @@
                                 <div class="icon">
                                     <i class="fa fa-home"></i>
                                 </div>
-                                <div class="text">My Company, 42 avenue des Champs Elysées 75000 Paris France</div>
+                                <div class="text">India , Delhi</div>
                             </div>
                             <div class="mail clearfix form-group">
                                 <div class="icon">
                                     <i class="fa fa-envelope"></i>
                                 </div>
-                                <div class="text">Email : support@domaincom</div>
+                                <div class="text">Email :  Edukan@gmail.com</div>
                             </div>
                             <div class="phone form-group">
                                 <div class="icon">
                                     <i class="fa fa-phone"></i>
                                 </div>
-                                <div class="text">Phone : 0123456789</div>
+                                <div class="text">Phone : xxxx-xxxx-xxxx</div>
                             </div>
 
                         </address>

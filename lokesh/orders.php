@@ -66,7 +66,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td class="text-left">iPhone5 </td>
+								<td class="text-left">Titan Blue Strap </td>
 								 
 								<td class="text-right">1</td>
 								<td class="text-right"> ₹123.20</td>

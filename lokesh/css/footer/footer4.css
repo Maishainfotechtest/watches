@@ -340,16 +340,7 @@
   .typefooter-4 .footer-middle .box-information ul li a, .typefooter-4 .footer-middle .box-service ul li a {
     padding-left: 15px;
     position: relative; }
-  .typefooter-4 .footer-middle .box-information ul li a:after, .typefooter-4 .footer-middle .box-service ul li a:after {
-    content: "";
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background: #666;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%); }
+   
   .typefooter-4 .footer-middle .so-popular-tag .box-content a {
     padding: 10px;
     margin-right: 10px;

@@ -299,16 +299,16 @@
                                                     <div class="ratings">
                                                         <div class="rating-box">
                                                             <span class="fa fa-stack"><i
-                                                                    
+                                                                    class="fa fa-star fa-stack-1x"></i><i
                                                                     class="fa fa-star-o fa-stack-1x"></i></span>
                                                             <span class="fa fa-stack"><i
-                                                                   
+                                                                    class="fa fa-star fa-stack-1x"></i><i
                                                                     class="fa fa-star-o fa-stack-1x"></i></span>
                                                             <span class="fa fa-stack"><i
-                                                                    
+                                                                    class="fa fa-star fa-stack-1x"></i><i
                                                                     class="fa fa-star-o fa-stack-1x"></i></span>
                                                             <span class="fa fa-stack"><i
-                                                                  
+                                                                    class="fa fa-star fa-stack-1x"></i><i
                                                                     class="fa fa-star-o fa-stack-1x"></i></span>
                                                             <span class="fa fa-stack"><i
                                                                     class="fa fa-star-o fa-stack-1x"></i></span>
@@ -781,16 +781,7 @@
             </div>
 
 
-            <div class="module banner-left hidden-xs ">
-                <div class="banner-sidebar banners">
-                    <div>
-                        <a title="Banner Image" href="#">
-                            <img src=" https://demo.smartaddons.com/templates/html/bestshop/image/catalog/banners/banner-sidebar.jpg"
-                                alt="Banner Image">
-                        </a>
-                    </div>
-                </div>
-            </div>
+            
         </aside>
         <!--Left Part End -->
         <!-- Related Products -->

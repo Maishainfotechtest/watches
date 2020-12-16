@@ -19,11 +19,7 @@
  ==============================================*/
 .no-margin {
   margin: 0 !important; }
-html{
-  scroll-behavior: smooth;
-  transition: all 2s;
-  
-}
+ 
 .marginbottom__3x {
   margin-bottom: 30px; }
 
@@ -4892,9 +4888,10 @@ header .dropdown-menu {
     text-align: left; }
 
 .dropdown-menu > li > a {
+  font-weight: bold;
   padding: 5px 0px;
   line-height: 22px;
-  color: #555; }
+  color: #131313;}
   .dropdown-menu > li > a:hover {
     color: #2677e7; }
 
@@ -7998,7 +7995,7 @@ footer .copyright a {
     display: inline-block;
     text-align: center;
     position: relative;
-    top: -30px;
+    top: -45px;
     z-index: 10; }
   .module.sohomepage-slider .owl2-controls .owl2-dots .owl2-dot {
     background: #222 !important;

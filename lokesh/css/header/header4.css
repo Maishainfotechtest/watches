@@ -371,6 +371,7 @@
   .typeheader-4 ul.top-link > li .btn-group .btn-link {
     padding: 0;
     border: none;
+    font-weight: bolder;
     font-size: 12px; }
   .typeheader-4 ul.top-link > li .fa-caret-down {
     font-size: 12px; }
@@ -392,7 +393,7 @@
     margin: 0; }
    
   .typeheader-4 ul.top-link > li.account .dropdown-menu {
-    left: 0;
+    left: -35px;
     right: auto; }
   .typeheader-4 ul.top-link > li.wishlist:before {
     content: "\f004";

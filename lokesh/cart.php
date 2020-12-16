@@ -15,9 +15,9 @@
           <thead>
             <tr>
               <td class="text-left">Image</td>
-              <td class="text-left">Product Name</td>
+              <td class="text-center">Product Name</td>
               <td class="text-left">Model</td>
-              <td class="text-left">Quantity</td>
+              <td class="text-center">Quantity</td>
               <td class="text-left">Unit Price</td>
               <td class="text-left">Total</td>
             </tr>
@@ -27,7 +27,7 @@
               <td class="text-left"><a href="product.php"><img width="70px"
                     src="https://staticimg.titan.co.in/Titan/Catalog/1833SL01_1.jpg?pView=listing"
                     alt="Aspire Ultrabook Laptop" title="titan watch 1" class="img-thumbnail" /></a></td>
-              <td class="text-left"><a href="product.php"> BLUE DIAL TAN LEATHER STRAP WATCH</a><br />
+              <td class="text-center "><a href="product.php"  > BLUE DIAL TAN LEATHER STRAP WATCH</a><br />
               </td>
               <td class="text-left">Pt 001</td>
               <td class="text-left" width="200px">
@@ -77,7 +77,7 @@
                     src="https://staticimg.titan.co.in/Titan/Catalog/1833SL02_1.jpg?pView=listing"
                     alt="Xitefun Causal Wear Fancy Shoes" title="Xitefun Causal Wear Fancy Shoes"
                     class="img-thumbnail" /></a></td>
-              <td class="text-left"><a href="product.php">WHITE DIAL BROWN LEATHER STRAP WATCH</a></td>
+              <td class="text-center"><a href="product.php">WHITE DIAL BROWN LEATHER STRAP WATCH</a></td>
               <td class="text-left">Pt 002</td>
               <td class="text-left" width="200px">
                 <div class="input-group btn-block quantity">
@@ -124,7 +124,7 @@
             </tr>
           </tbody>
         </table>
-
+      </div>
 
 
 
@@ -199,7 +199,7 @@
                   <td class="text-left">
                     <strong>Total:</strong>
                   </td>
-                  <td class="text-left"> ₹213.70</td>
+                  <td class="text-left" id="final"> ₹213.70</td>
                 </tr>
 
               </tbody>
@@ -216,7 +216,7 @@
         </div>
         <!-- /final bill section-->
 
-      </div>
+      
       <!--Middle Part End -->
     </div>
   </div>

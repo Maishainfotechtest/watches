@@ -53,12 +53,11 @@
                                     <h3 class="modtitle">Information</h3>
                                     <div class="modcontent">
                                         <ul class="menu">
-                                            <li><a href="aboutus.php">About Us</a></li>
-                                            <li><a href="PrivacyPolicy.php">PrivacyPolicy </a></li>
-                                            <li><a href="#">Warranty </a></li>
-                                            <li><a href="#">Support 24/7 page</a></li>
-                                            <li><a href="#">Product </a></li>
-                                            <li><a href="#">Product Support</a></li>
+                                            <li><a href="aboutus.php"><i class="fa fa-users" aria-hidden="true"></i> About Us</a></li>
+                                            <li><a href="PrivacyPolicy.php"><i class="fa fa-list-alt" aria-hidden="true"></i> PrivacyPolicy </a></li>
+                                          
+                                            <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Product </a></li>
+                                         
                                         </ul>
                                     </div>
                                 </div>
@@ -70,12 +69,10 @@
                                     <h3 class="modtitle">Services</h3>
                                     <div class="modcontent">
                                         <ul class="menu">
-                                            <li><a href="contactus.php">Contact Us</a></li>
-                                            <li><a href="#">Returns</a></li>
-                                            <li><a href="#">Support</a></li>
-                                            <li><a href="#">Site Map</a></li>
-                                            <li><a href="#">Customer Service</a></li>
-                                            <li><a href="#">Custom Link</a></li>
+                                            <li><a href="contactus.php"><i class="fa fa-commenting" aria-hidden="true"></i>  Contact Us</a></li>
+                                         
+                                            <li><a href="#"><i class="fa fa-phone-square" aria-hidden="true"></i> Support</a></li>
+                                            <li><a href="contactus.php"><i class="fa fa-map-marker" aria-hidden="true"></i> Site Map</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -118,6 +115,43 @@
          <!-- Include Libs & Plugins
             ============================================ -->
         <!-- Placed at the end of the document so the pages load faster -->
+       
+       <script>
+   function subqty(){
+       var inpqty = document.getElementById('qty').value;
+       var unitqty = document.getElementById('unit').innerText;
+       var totalqty = document.getElementById('total').innerText;
+       var final = document.getElementById('final').innerText;
+      
+        
+        
+       inpqty = parseInt(inpqty);
+       inpqty++;  
+       totalqty = unitqty*inpqty;
+        
+       var totalqty = document.getElementById('total').innerText = totalqty + ".00";
+       var final = document.getElementById('final').innerText = totalqty + ".00";
+     
+}
+function subqtytwo() {
+       
+       var inpqtytwo = document.getElementById('qtytwo').value;
+       var unitqtytwo = document.getElementById('unittwo').innerText;
+       var totalqtytwo = document.getElementById('totaltwo').innerText;
+       var final = document.getElementById('final').innerText;
+       
+        
+        
+       inpqtytwo = parseInt(inpqtytwo);
+       inpqtytwo++;  
+       totalqtytwo = unitqtytwo*inpqtytwo;
+      console.log(totalqtytwo)
+       var totalqtytwo = document.getElementById('totaltwo').innerText = totalqtytwo + ".00";
+       var final = document.getElementById('final').innerText = totalqtytwo +  ".00";
+}
+   
+   
+   </script>
         <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
@@ -140,45 +174,12 @@
         <script src="../js/main.js"></script>
         <script type="text/javascript" >
         
-                 if($.cookie('display')){
-                    view = $.cookie('display');
-                }else{
-                    view = 'list';
-                }
-                if(view) display(view);  
-            
-            function subqty(){
-                var inpqty = document.getElementById('qty').value;
-                var unitqty = document.getElementById('unit').innerText;
-                var totalqty = document.getElementById('total').innerText;
-                
-               
-                 
-                 
-                inpqty = parseInt(inpqty);
-                inpqty++;  
-                totalqty = unitqty*inpqty;
-                 
-                var totalqty = document.getElementById('total').innerText = totalqty + ".00";
-              
-}
- function subqtytwo() {
-                
-                var inpqtytwo = document.getElementById('qtytwo').value;
-                var unitqtytwo = document.getElementById('unittwo').innerText;
-                var totalqtytwo = document.getElementById('totaltwo').innerText;
-                
-                
-                 
-                 
-                inpqtytwo = parseInt(inpqtytwo);
-                inpqtytwo++;  
-                totalqtytwo = unitqtytwo*inpqtytwo;
-               console.log(totalqtytwo)
-                var totalqtytwo = document.getElementById('totaltwo').innerText = totalqtytwo + ".00";
- }
-            
-            
-            </script>
+        if($.cookie('display')){
+           view = $.cookie('display');
+       }else{
+           view = 'list';
+       }
+       if(view) display(view);  
+       </script>
     </body>
 </html>
